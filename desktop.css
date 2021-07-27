@@ -1,0 +1,40 @@
+/* Primary Section Starts From here */
+#primarySection {
+    height: 100vh;
+}
+.logInContent__desc {
+    float: left;
+    width: 60%;
+    margin-top: 75px;
+}
+img.logInContent__facbookText {
+    margin-left: -244px;
+}
+.logInContent__desc h1 {
+    font-weight: 400;
+    font-size: 1.7rem;
+    width: 480px;
+    text-align: left;
+}
+.logInContent__form {
+    float: left;
+    width: 40%;
+}
+.logInContent::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+.createPage {
+    width: 387px;
+    float: right;
+}
+/* Primary Section Ends From here */
+/* Footer section starts here */
+.footerContent {
+    width: 100%;
+}
+.footerContent__footerTop {
+    text-align: left;
+}
+/* Footer section ends here */

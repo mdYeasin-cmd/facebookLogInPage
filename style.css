@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#container {
+    max-width: 992px;
+    margin: 0 auto;
+}
+.row {
+    content: '';
+    clear: both;
+    display: table;
+}
+/* Basic style ends here */
+/* Primary section starts here */
+#primarySection {
+    background-color: #F0F2F5;
+    display: flex;
+    align-items: center;
+}
+/* Log Desc */
+.logInContent__desc {
+    width: 100%;
+    margin-top: 12px;
+    text-align: center;
+}
+img.logInContent__facbookText {
+    margin-left: -30px;
+}
+.logInContent__desc h1 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    width: 418px;
+    margin: 0 auto;
+}
+/* Log form */
+.logInContent__form {
+    width: 80%;
+    margin: 35px auto 0;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 15px 0 gray;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+.logInContent__form p {
+    margin: 20px 0;
+    text-align: center;
+}
+.logInContent__form p a {
+    text-decoration: none;
+}
+.logInContent__form input, .logInContent__button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 1rem;
+    color: gray;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 5px;
+}
+.logInContent__form input:focus {
+    box-shadow: 0 0 0 1px blue;
+    outline: none;
+}
+.logInContent__button {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #166FE5;
+    color: white;
+    font-weight: bold;
+}
+.logInContentc__reateAccountBtn {
+    margin-top: 20px;
+    width: 188px;
+    background-color: #36A420;
+}
+.logInContent__hr {
+    height: 1px;
+    border: none;
+    background-color: rgb(128, 128, 128, 0.3);
+}
+/* Create Page */
+.createPage p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.createPage a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+/* Primary section ends here */
+/* Footer section starts from here */
+.footerContent {
+    width: 80%;
+    margin: 40px auto 10px;
+    
+}
+/* Footer top content */
+.footerContent__footerTop {
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.footerContent__footerTop a {
+    padding: 0 5px;
+    font-size: 0.8rem;
+    color: gray;
+    text-decoration: none;
+}
+#footerSection .footerBtn {
+    padding: 0 10px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 2px;
+    font-weight: bold;
+}
+/* Footer bottom content */
+.footerContent__footerBottom {
+    text-align: left;
+    margin-top: 10px;
+}
+.footerContent__footerBottom a {
+    padding: 0 6px;
+    font-size: 0.8rem;
+    color: gray;
+    text-decoration: none;
+}
+.footerContent p {
+    color: gray;
+    padding: 10px 10px 10px 5px;
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
+/* Footer section ends from here */
